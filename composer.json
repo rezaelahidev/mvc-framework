@@ -1,0 +1,21 @@
+{
+    "name": "reza/framework",
+    "description": "The php micro framework to write code in MVC model.",
+    "type": "library",
+    "license": "MIT license",
+    "autoload": {
+        "psr-4": {
+            "Reza\\Framework\\": "App/"
+        }
+    },
+    "authors": [
+        {
+            "name": "reza elahi",
+            "email": "relahi1373@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "vlucas/phpdotenv": "5.5.x-dev"
+    }
+}
